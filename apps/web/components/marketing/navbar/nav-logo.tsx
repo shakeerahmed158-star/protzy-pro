@@ -8,7 +8,7 @@ export default function NavLogo() {
       href="/"
       className="text-2xl font-bold tracking-tight text-white"
     >
-      Goopsy
+      protzy
     </Link>
   );
 }

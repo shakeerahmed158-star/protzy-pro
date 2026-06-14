@@ -1,5 +1,5 @@
 const SITE_CONFIG = {
-  name: "Goopsy",
+  name: "protzy",
 
   description:
     "Premium platform for selling, buying and repairing smartphones.",
@@ -8,7 +8,7 @@ const SITE_CONFIG = {
     "Instant device pricing with dealer-backed offers.",
 
   supportEmail:
-    "support@goopsy.com",
+    "support@protzy.com",
 
   phone:
     "+91 9999999999",

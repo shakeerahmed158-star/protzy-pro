@@ -50,7 +50,7 @@ export function CTASection() {
             <div className="relative z-10">
               
               <p className="mb-4 text-sm uppercase tracking-[0.3em] text-zinc-700">
-                Join Goopsy
+                Join protzy
               </p>
 
               <h2

@@ -45,7 +45,7 @@ async function bootstrap() {
    * LOGGER
    */
   const logger =
-    new Logger('GoopsyBackend');
+    new Logger('protzyBackend');
 
   /**
    * CREATE APP
@@ -197,7 +197,7 @@ app.useGlobalInterceptors(
    * SUCCESS LOGS
    */
   logger.log(
-    ` Goopsy Backend Running On Port ${PORT}`,
+    ` protzy Backend Running On Port ${PORT}`,
   );
 
   logger.log(

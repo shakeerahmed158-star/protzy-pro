@@ -14,7 +14,7 @@ export function Header() {
         </h2>
 
         <p className="text-sm text-zinc-700">
-          Welcome back to Goopsy Pro
+          Welcome back to protzy Pro
         </p>
       </div>
 

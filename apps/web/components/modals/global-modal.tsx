@@ -91,7 +91,7 @@ export function GlobalModal() {
                 </h2>
 
                 <p className="mt-3 text-zinc-600">
-                  Login to continue into Goopsy.
+                  Login to continue into protzy.
                 </p>
               </div>
             )}

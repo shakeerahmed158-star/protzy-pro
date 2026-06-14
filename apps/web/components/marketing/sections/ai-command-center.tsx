@@ -75,7 +75,7 @@ export function AICommandCenter() {
               text-zinc-600
             "
           >
-            Goopsy leverages intelligent infrastructure
+            protzy leverages intelligent infrastructure
             to automate pricing, inventory insights,
             repair predictions and dealer optimization.
           </p>

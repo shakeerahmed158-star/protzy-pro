@@ -56,7 +56,7 @@ export function HeroSection() {
 
             {/* Description */}
             <p className="max-w-2xl pt-8 text-lg leading-relaxed text-zinc-600">
-              Goopsy connects customers, dealers and
+              protzy connects customers, dealers and
               repair partners into one premium
               smartphone commerce ecosystem across India.
             </p>

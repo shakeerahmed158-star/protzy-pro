@@ -1,5 +1,5 @@
 export const APP_NAME =
-  'Goopsy Backend';
+  'protzy Backend';
 
 export const API_PREFIX =
   'api';

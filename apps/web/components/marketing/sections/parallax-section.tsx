@@ -76,7 +76,7 @@ export function ParallaxSection() {
               text-zinc-600
             "
           >
-            Goopsy connects customers, dealers,
+            protzy connects customers, dealers,
             logistics and repairs into one intelligent
             digital ecosystem powered by modern
             infrastructure.

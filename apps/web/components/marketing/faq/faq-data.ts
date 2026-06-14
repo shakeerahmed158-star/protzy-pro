@@ -1,9 +1,9 @@
 export const faqs = [
   {
     question:
-      "How does Goopsy help dealers?",
+      "How does protzy help dealers?",
     answer:
-      "Goopsy provides inventory management, customer leads, analytics and premium dealer infrastructure.",
+      "protzy provides inventory management, customer leads, analytics and premium dealer infrastructure.",
   },
   {
     question:
@@ -19,8 +19,8 @@ export const faqs = [
   },
   {
     question:
-      "Is Goopsy available across India?",
+      "Is protzy available across India?",
     answer:
-      "Goopsy is expanding rapidly across multiple cities with verified partners and dealers.",
+      "protzy is expanding rapidly across multiple cities with verified partners and dealers.",
   },
 ];

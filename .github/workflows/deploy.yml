@@ -1,4 +1,4 @@
-name: Goopsy CI
+name: protzy CI
 
 on:
   push:

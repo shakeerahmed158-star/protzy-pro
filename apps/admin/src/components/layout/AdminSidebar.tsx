@@ -54,7 +54,7 @@ export default function AdminSidebar() {
           text-gray-900
           "
         >
-          GOOPSY
+          protzy
         </h1>
 
         <p className="text-gray-500 mt-1">

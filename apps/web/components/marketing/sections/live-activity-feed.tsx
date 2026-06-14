@@ -47,7 +47,7 @@ export function LiveActivityFeed() {
 
           <p className="pt-8 text-lg leading-relaxed text-zinc-600">
             Watch devices being sold, repairs booked
-            and dealers actively growing on Goopsy.
+            and dealers actively growing on protzy.
           </p>
         </div>
 

@@ -6,7 +6,7 @@ export default function SEOSection() {
         {/* Heading */}
         <div className="text-center max-w-3xl mx-auto">
           <p className="text-blue-600 font-semibold tracking-widest uppercase text-sm">
-            Goopsy Advantage
+            protzy Advantage
           </p>
           <h2 className="mt-3 text-4xl md:text-5xl font-bold text-slate-900 leading-tight">
             Smart Way to Sell & Buy Devices
@@ -25,7 +25,7 @@ export default function SEOSection() {
               Sell Old Phone Instantly
             </h3>
             <p className="mt-4 text-slate-600 leading-8">
-              Turn your old smartphone into instant cash with Goopsy. Get a
+              Turn your old smartphone into instant cash with protzy. Get a
               real-time quote, free doorstep pickup, quick verification, and
               secure payment without dealing with random buyers or bargaining.
             </p>
@@ -38,7 +38,7 @@ export default function SEOSection() {
             <p className="mt-4 text-slate-600 leading-8">
               Sell laptops, tablets, smartwatches, accessories, and premium
               gadgets with transparent pricing and a smooth pickup process.
-              Goopsy helps you unlock the best resale value with zero hassle.
+              protzy helps you unlock the best resale value with zero hassle.
             </p>
           </div>
 
@@ -55,7 +55,7 @@ export default function SEOSection() {
 
           <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm hover:shadow-xl transition">
             <h3 className="text-2xl font-bold text-slate-900">
-              Why Choose Goopsy?
+              Why Choose protzy?
             </h3>
 
             <ul className="mt-4 space-y-2 text-slate-600 leading-8">
@@ -77,7 +77,7 @@ export default function SEOSection() {
           </h3>
 
           <p className="mt-5 text-slate-300 leading-8 text-lg">
-            Goopsy is designed for people who value time, trust, and
+            protzy is designed for people who value time, trust, and
             convenience. Whether you want to sell your used phone instantly or
             buy a premium refurbished device, our platform delivers a seamless
             modern experience from start to finish.

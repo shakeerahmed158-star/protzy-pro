@@ -4,8 +4,8 @@ import {
 
 export const swaggerConfig =
   new DocumentBuilder()
-    .setTitle('Goopsy API')
-    .setDescription('Goopsy Backend APIs')
+    .setTitle('protzy API')
+    .setDescription('protzy Backend APIs')
     .setVersion('1.0')
     .addBearerAuth(
       {

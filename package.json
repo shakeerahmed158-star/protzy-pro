@@ -1,5 +1,5 @@
 {
-  "name": "goopsy-pro",
+  "name": "protzy-pro",
   "private": true,
   "scripts": {
     "build": "turbo run build",

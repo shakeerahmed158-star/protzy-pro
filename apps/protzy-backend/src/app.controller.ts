@@ -6,7 +6,7 @@ export class AppController {
   healthCheck() {
     return {
       success: true,
-      message: 'Goopsy Backend Running 🚀',
+      message: 'protzy Backend Running 🚀',
       timestamp: new Date(),
     };
   }
@@ -15,7 +15,7 @@ export class AppController {
   health() {
     return {
       status: 'OK',
-      server: 'Goopsy Backend',
+      server: 'protzy Backend',
       uptime: process.uptime(),
       timestamp: new Date(),
     };

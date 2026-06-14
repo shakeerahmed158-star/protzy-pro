@@ -35,7 +35,7 @@ export default function AppCTA() {
               </h2>
 
               <p className="mt-4 text-sm md:text-base text-blue-100 max-w-lg leading-7">
-                Use the Goopsy app to sell old phones, buy refurbished devices,
+                Use the protzy app to sell old phones, buy refurbished devices,
                 track orders, and enjoy a premium smooth experience.
               </p>
 
@@ -74,7 +74,7 @@ export default function AppCTA() {
             <div className="flex justify-center md:justify-end">
               <Image
                 src="/hero/hero.png"
-                alt="Goopsy App"
+                alt="protzy App"
                 width={280}
                 height={280}
                 className="object-contain drop-shadow-2xl"

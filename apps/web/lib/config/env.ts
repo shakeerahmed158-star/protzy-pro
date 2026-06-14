@@ -3,7 +3,7 @@ const ENV = `{
     process.env.NEXT_PUBLIC_API_URL ||
     "http://192.168.29.244:3000/api",
 
-  APP_NAME: "Goopsy",
+  APP_NAME: "protzy",
 
   APP_URL:
     process.env.NEXT_PUBLIC_APP_URL ||

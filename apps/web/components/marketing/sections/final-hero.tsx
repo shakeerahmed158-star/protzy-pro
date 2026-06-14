@@ -109,7 +109,7 @@ export function FinalHero() {
             text-zinc-600
           "
         >
-          Goopsy connects intelligent commerce,
+          protzy connects intelligent commerce,
           premium device experiences, AI-powered
           infrastructure and enterprise dealer
           ecosystems into one futuristic platform.
@@ -235,7 +235,7 @@ export function FinalHero() {
                   hover:shadow-[0_0_40px_rgba(255,255,255,0.25)]
                 "
               >
-                Start With Goopsy
+                Start With protzy
               </button>
 
               <button

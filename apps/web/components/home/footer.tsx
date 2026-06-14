@@ -50,7 +50,7 @@ export default function Footer() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold">Goopsy</h3>
+                <h3 className="text-2xl font-bold">protzy</h3>
                 <p className="text-sm text-white/60">
                   Premium Gadget Marketplace
                 </p>
@@ -58,7 +58,7 @@ export default function Footer() {
             </div>
 
             <p className="mt-5 text-sm text-white/70 max-w-md leading-7">
-              Goopsy helps users sell old phones, laptops, and gadgets instantly
+              protzy helps users sell old phones, laptops, and gadgets instantly
               while also offering trusted refurbished devices at smart prices.
               Built for speed, trust, and convenience.
             </p>
@@ -140,7 +140,7 @@ export default function Footer() {
 
               <div className="flex gap-2">
                 <Mail className="h-4 w-4 mt-0.5 shrink-0" />
-                support@goopsy.in
+                support@protzy.in
               </div>
             </div>
           </div>
@@ -156,7 +156,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="pt-6 flex flex-col md:flex-row gap-3 md:items-center md:justify-between text-sm text-white/50">
-          <p>© 2026 Goopsy. All rights reserved.</p>
+          <p>© 2026 protzy. All rights reserved.</p>
           <p>Built for Smart Gadget Users 🚀</p>
         </div>
 

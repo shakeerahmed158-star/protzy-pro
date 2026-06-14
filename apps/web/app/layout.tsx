@@ -21,7 +21,7 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Goopsy Pro",
+  title: "protzy Pro",
   description:
     "Premium Dealer & Customer Commerce Platform",
 };

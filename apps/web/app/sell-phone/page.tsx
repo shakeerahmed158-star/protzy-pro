@@ -40,7 +40,7 @@ export default function SellPhone() {
 
             <div>
               <h2 className="text-2xl font-black tracking-tight text-black">
-                Goopsy
+                protzy
               </h2>
 
               <p className="text-[10px] uppercase tracking-[3px] text-slate-500">

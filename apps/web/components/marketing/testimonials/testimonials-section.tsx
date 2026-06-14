@@ -59,7 +59,7 @@ export function TestimonialsSection() {
                 text-zinc-600
               "
             >
-              Goopsy powers the next generation
+              protzy powers the next generation
               smartphone commerce ecosystem with
               trust, transparency and premium service.
             </p>

@@ -7,7 +7,7 @@ const timeline = [
     year: "2025",
     title: "Platform Vision",
     description:
-      "Goopsy was designed to unify smartphone commerce, repairs and dealer infrastructure.",
+      "protzy was designed to unify smartphone commerce, repairs and dealer infrastructure.",
   },
   {
     year: "2026",
@@ -84,7 +84,7 @@ export function EnterpriseTimeline() {
               text-zinc-600
             "
           >
-            Goopsy is evolving into a premium global
+            protzy is evolving into a premium global
             commerce infrastructure connecting dealers,
             customers, logistics and intelligent systems.
           </p>

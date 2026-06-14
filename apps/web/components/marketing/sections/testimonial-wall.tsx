@@ -7,7 +7,7 @@ const testimonials = [
     name: "Rahul Verma",
     role: "Dealer Partner",
     review:
-      "Goopsy completely changed the way we manage premium device inventory.",
+      "protzy completely changed the way we manage premium device inventory.",
   },
   {
     name: "Ayesha Khan",
@@ -96,7 +96,7 @@ export function TestimonialWall() {
               text-zinc-600
             "
           >
-            Thousands of users trust Goopsy for
+            Thousands of users trust protzy for
             premium commerce, repair infrastructure
             and intelligent dealer operations.
           </p>

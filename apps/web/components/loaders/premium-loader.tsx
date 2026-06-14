@@ -54,7 +54,7 @@ export function PremiumLoader() {
             text-white
           "
         >
-          GOOPSY
+          protzy
         </motion.h1>
 
         {/* Loading Bar */}

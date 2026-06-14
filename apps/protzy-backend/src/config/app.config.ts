@@ -3,7 +3,7 @@ export default () => ({
   app: {
 
     name:
-      process.env.APP_NAME || 'Goopsy',
+      process.env.APP_NAME || 'protzy',
 
     env:
       process.env.NODE_ENV || 'development',

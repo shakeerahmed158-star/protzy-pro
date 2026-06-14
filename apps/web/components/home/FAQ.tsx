@@ -6,7 +6,7 @@ import { Plus, Minus } from "lucide-react";
 export default function FAQ() {
   const faqs = [
     {
-      q: "How do I sell my old phone on Goopsy?",
+      q: "How do I sell my old phone on protzy?",
       a: "Select your device, answer a few questions, get instant price, schedule pickup and receive payment after verification.",
     },
     {
@@ -44,7 +44,7 @@ export default function FAQ() {
           </h2>
 
           <p className="text-slate-500 mt-3">
-            Everything you need to know about Goopsy.
+            Everything you need to know about protzy.
           </p>
         </div>
 

@@ -112,7 +112,7 @@ export function InteractiveGlow() {
                 text-zinc-600
               "
             >
-              Goopsy creates a seamless experience
+              protzy creates a seamless experience
               between customers, dealers and repair
               infrastructure with real-time intelligence
               and premium interactions.

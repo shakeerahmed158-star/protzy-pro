@@ -12,7 +12,7 @@ export default function BuyHeader({
 
       <div className="inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50 px-5 py-2 text-sm font-semibold text-blue-700">
 
-        GOOPSY VERIFIED STORE
+        protzy VERIFIED STORE
 
       </div>
 

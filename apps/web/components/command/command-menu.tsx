@@ -144,7 +144,7 @@ export function CommandMenu() {
             <Command className="bg-transparent">
               
               <CommandInput
-                placeholder="Search Goopsy..."
+                placeholder="Search protzy..."
                 className="
                   h-16
                   w-full

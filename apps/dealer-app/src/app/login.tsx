@@ -43,7 +43,7 @@ export default function LoginScreen() {
           marginBottom: 20,
         }}
       >
-        Goopsy Dealer Login
+        protzy Dealer Login
       </Text>
 
       <TextInput

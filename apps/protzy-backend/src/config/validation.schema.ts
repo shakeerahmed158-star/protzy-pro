@@ -22,7 +22,7 @@ export const validationSchema =
 
     APP_NAME:
       Joi.string()
-        .default('Goopsy'),
+        .default('protzy'),
 
     DATABASE_URL:
       Joi.string()

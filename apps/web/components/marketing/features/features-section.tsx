@@ -78,7 +78,7 @@ export function FeaturesSection() {
             </h2>
 
             <p className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-zinc-600">
-              Goopsy combines commerce, repairs,
+              protzy combines commerce, repairs,
               logistics and dealer infrastructure into
               one premium smartphone ecosystem.
             </p>

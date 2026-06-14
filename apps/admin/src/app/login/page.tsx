@@ -55,7 +55,7 @@ export default function LoginPage() {
           text-center
         "
         >
-          Goopsy Admin
+          protzy Admin
         </h1>
 
         <input

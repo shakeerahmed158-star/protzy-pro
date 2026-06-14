@@ -6,7 +6,7 @@ export class HealthService {
     return {
       success: true,
       status: 'ok',
-      service: 'Goopsy Backend',
+      service: 'protzy Backend',
       message: 'Backend is running successfully',
       timestamp: new Date().toISOString(),
     };

@@ -4,9 +4,9 @@ global:
 
 scrape_configs:
 
-  - job_name: 'goopsy-backend'
+  - job_name: 'protzy-backend'
 
     static_configs:
 
       - targets:
-          - goopsy-backend:3000
+          - protzy-backend:3000

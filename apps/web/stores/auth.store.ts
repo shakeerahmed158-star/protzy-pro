@@ -61,7 +61,7 @@ export const useAuthStore =
       }),
 
       {
-        name: "goopsy-auth",
+        name: "protzy-auth",
       }
     )
   );

@@ -37,7 +37,7 @@ export function DevicesGrid() {
 
           <p className="pt-8 text-lg leading-relaxed text-zinc-600">
             Discover high-quality verified smartphones
-            through the Goopsy commerce ecosystem.
+            through the protzy commerce ecosystem.
           </p>
         </div>
 

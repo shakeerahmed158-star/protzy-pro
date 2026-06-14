@@ -166,7 +166,7 @@ export const useSellStore =
 
       {
         name:
-          "goopsy-sell-flow",
+          "protzy-sell-flow",
       }
     )
   );

@@ -22,7 +22,7 @@ import { PrismaService } from '../../shared/prisma/prisma.service';
         
     BullModule.forRoot({
       connection: {
-        host: 'goopsy-redis',
+        host: 'protzy-redis',
         port: 6379,
       },
     }),

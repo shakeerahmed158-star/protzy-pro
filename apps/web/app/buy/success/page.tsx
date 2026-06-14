@@ -284,7 +284,7 @@ export default function BuySuccessPage() {
 
               <p className="text-sm font-semibold tracking-wide text-zinc-400">
 
-                GOOPSY • VERIFIED DEALERS • SECURE DELIVERY • WARRANTY INCLUDED
+                protzy • VERIFIED DEALERS • SECURE DELIVERY • WARRANTY INCLUDED
 
               </p>
 

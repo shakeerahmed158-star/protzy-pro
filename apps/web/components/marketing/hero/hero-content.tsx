@@ -33,7 +33,7 @@ export function HeroContent() {
         text-zinc-600
       "
       >
-        Goopsy helps customers and dealers buy,
+        protzy helps customers and dealers buy,
         sell, repair and manage smartphones with
         premium commerce infrastructure.
       </p>

@@ -412,7 +412,7 @@ export default function SuccessPage() {
 
               <p className="text-sm font-semibold tracking-[0.25em] text-zinc-400">
 
-                GOOPSY • VERIFIED DEALERS • INSTANT PAYOUT
+                protzy • VERIFIED DEALERS • INSTANT PAYOUT
 
               </p>
 

@@ -13,7 +13,7 @@ export default function AICenterPage() {
           </h1>
 
           <p className="mt-3 text-gray-500">
-            Central intelligence engine powering GOOPSY.
+            Central intelligence engine powering protzy.
           </p>
         </div>
 
@@ -54,7 +54,7 @@ export default function AICenterPage() {
         <div className="bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-3xl p-10">
 
           <h2 className="text-4xl font-black">
-            GOOPSY AI Engine
+            protzy AI Engine
           </h2>
 
           <p className="mt-4">

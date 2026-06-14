@@ -283,7 +283,7 @@ export default function RepairSuccessPage() {
 
               <p className="text-sm font-semibold tracking-wide text-zinc-400">
 
-                GOOPSY • SMART REPAIRS • VERIFIED TECHNICIANS • GENUINE PARTS
+                protzy • SMART REPAIRS • VERIFIED TECHNICIANS • GENUINE PARTS
 
               </p>
 

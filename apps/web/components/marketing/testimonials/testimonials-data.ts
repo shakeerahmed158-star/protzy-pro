@@ -3,7 +3,7 @@ export const testimonials = [
     name: "Rahul Verma",
     role: "Mobile Dealer",
     review:
-      "Goopsy completely transformed the way we manage inventory and customer leads.",
+      "protzy completely transformed the way we manage inventory and customer leads.",
   },
   {
     name: "Aisha Khan",

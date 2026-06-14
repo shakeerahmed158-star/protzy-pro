@@ -53,7 +53,7 @@ export function Footer() {
           {/* Brand */}
           <div className="max-w-md">
             <h2 className="text-4xl font-black text-white">
-              GOOPSY
+              protzy
             </h2>
 
             <p
@@ -107,7 +107,7 @@ export function Footer() {
           "
         >
           <p>
-            © 2026 Goopsy. All rights reserved.
+            © 2026 protzy. All rights reserved.
           </p>
 
           <p>

@@ -53,7 +53,7 @@ export function FAQSection() {
               "
             >
               Everything you need to know about
-              Goopsy’s premium smartphone ecosystem.
+              protzy’s premium smartphone ecosystem.
             </p>
           </div>
         </Reveal>

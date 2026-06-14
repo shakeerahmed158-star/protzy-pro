@@ -16,7 +16,7 @@ export function StatsSection() {
           <div className="mx-auto max-w-3xl text-center">
             
             <p className="text-sm uppercase tracking-[0.3em] text-zinc-700">
-              Goopsy Network
+              protzy Network
             </p>
 
             <h2 className="pt-6 text-5xl font-black text-white md:text-6xl">

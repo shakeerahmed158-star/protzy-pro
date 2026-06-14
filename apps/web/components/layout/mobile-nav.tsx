@@ -58,7 +58,7 @@ export function MobileNav() {
             <div className="mb-10 flex items-center justify-between">
               <div>
                 <h1 className="text-2xl font-bold text-white">
-                  GOOPSY PRO
+                  protzy PRO
                 </h1>
 
                 <p className="text-sm text-zinc-700">

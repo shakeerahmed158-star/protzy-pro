@@ -328,7 +328,7 @@ importers:
         specifier: 5.9.2
         version: 5.9.2
 
-  apps/goopsy-backend:
+  apps/protzy-backend:
     dependencies:
       '@nestjs/bull':
         specifier: ^11.0.4

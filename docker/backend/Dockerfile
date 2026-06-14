@@ -13,10 +13,10 @@ RUN corepack prepare pnpm@9.15.0 --activate
 COPY . .
 
 RUN pnpm install --no-frozen-lockfile
-RUN pnpm --filter goopsy-backend exec prisma generate --schema=prisma/schema.prisma
+RUN pnpm --filter protzy-backend exec prisma generate --schema=prisma/schema.prisma
 
-RUN pnpm --filter goopsy-backend build
+RUN pnpm --filter protzy-backend build
 
 EXPOSE 3000
 
-CMD ["pnpm", "--filter", "goopsy-backend", "start"]
+CMD ["pnpm", "--filter", "protzy-backend", "start"]

@@ -70,7 +70,7 @@ export default function Testimonials() {
             </h2>
 
             <p className="text-sm text-slate-500 mt-3">
-              Real experiences from users who chose Goopsy
+              Real experiences from users who chose protzy
             </p>
           </div>
 

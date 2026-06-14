@@ -72,7 +72,7 @@ export default function Navbar() {
 
           <div>
             <h1 className="text-[30px] font-black leading-none tracking-tight text-slate-900">
-              Goopsy
+              protzy
             </h1>
             <p className="text-[10px] uppercase tracking-[0.32em] text-slate-400 font-semibold">
               Smart Gadgets

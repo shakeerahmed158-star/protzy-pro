@@ -4,13 +4,13 @@ services:
 
   postgres:
     image: postgres:16
-    container_name: goopsy-postgres
+    container_name: protzy-postgres
     restart: always
 
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: goopsy_db
+      POSTGRES_DB: protzy_db
 
     ports:
       - "5432:5432"
@@ -19,11 +19,11 @@ services:
       - postgres_data:/var/lib/postgresql/data
 
     networks:
-      - goopsy-network
+      - protzy-network
 
   redis:
     image: redis:7
-    container_name: goopsy-redis
+    container_name: protzy-redis
     restart: always
 
     ports:
@@ -35,11 +35,11 @@ services:
     command: redis-server --appendonly yes
 
     networks:
-      - goopsy-network
+      - protzy-network
 
   minio:
     image: minio/minio:latest
-    container_name: goopsy-minio
+    container_name: protzy-minio
     restart: always
 
     ports:
@@ -47,8 +47,8 @@ services:
       - "9001:9001"
 
     environment:
-      MINIO_ROOT_USER: goopsyadmin
-      MINIO_ROOT_PASSWORD: Goopsy@2026Storage
+      MINIO_ROOT_USER: protzyadmin
+      MINIO_ROOT_PASSWORD: protzy@2026Storage
 
     command: server /data --console-address ":9001"
 
@@ -56,14 +56,14 @@ services:
       - minio_data:/data
 
     networks:
-      - goopsy-network
+      - protzy-network
 
   backend:
     build:
       context: .
       dockerfile: docker/backend/Dockerfile
 
-    container_name: goopsy-backend-container
+    container_name: protzy-backend-container
     restart: always
 
     ports:
@@ -73,16 +73,16 @@ services:
       - .env
 
     environment:
-      DATABASE_URL: "postgresql://postgres:postgres@goopsy-postgres:5432/goopsy_db?schema=public"
+      DATABASE_URL: "postgresql://postgres:postgres@protzy-postgres:5432/protzy_db?schema=public"
 
-      REDIS_HOST: goopsy-redis
+      REDIS_HOST: protzy-redis
       REDIS_PORT: 6379
 
-      MINIO_ENDPOINT: goopsy-minio
+      MINIO_ENDPOINT: protzy-minio
       MINIO_PORT: 9000
       MINIO_USE_SSL: false
-      MINIO_ACCESS_KEY: goopsyadmin
-      MINIO_SECRET_KEY: Goopsy@2026Storage
+      MINIO_ACCESS_KEY: protzyadmin
+      MINIO_SECRET_KEY: protzy@2026Storage
 
     depends_on:
       - postgres
@@ -90,10 +90,10 @@ services:
       - minio
 
     networks:
-      - goopsy-network
+      - protzy-network
 
 networks:
-  goopsy-network:
+  protzy-network:
     driver: bridge
 
 volumes:

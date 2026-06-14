@@ -1,9 +1,9 @@
 #!/bin/sh
 
 mc alias set local \
-http://goopsy-minio:9000 \
-goopsyadmin \
-Goopsy@2026Storage
+http://protzy-minio:9000 \
+protzyadmin \
+protzy@2026Storage
 
 mc mb local/product-images --ignore-existing
 
