@@ -1,0 +1,102 @@
+version: '3.9'
+
+services:
+
+  postgres:
+    image: postgres:16
+    container_name: goopsy-postgres
+    restart: always
+
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: goopsy_db
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+    networks:
+      - goopsy-network
+
+  redis:
+    image: redis:7
+    container_name: goopsy-redis
+    restart: always
+
+    ports:
+      - "6379:6379"
+
+    volumes:
+      - redis_data:/data
+
+    command: redis-server --appendonly yes
+
+    networks:
+      - goopsy-network
+
+  minio:
+    image: minio/minio:latest
+    container_name: goopsy-minio
+    restart: always
+
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+
+    environment:
+      MINIO_ROOT_USER: goopsyadmin
+      MINIO_ROOT_PASSWORD: Goopsy@2026Storage
+
+    command: server /data --console-address ":9001"
+
+    volumes:
+      - minio_data:/data
+
+    networks:
+      - goopsy-network
+
+  backend:
+    build:
+      context: .
+      dockerfile: docker/backend/Dockerfile
+
+    container_name: goopsy-backend-container
+    restart: always
+
+    ports:
+      - "3000:3000"
+
+    env_file:
+      - .env
+
+    environment:
+      DATABASE_URL: "postgresql://postgres:postgres@goopsy-postgres:5432/goopsy_db?schema=public"
+
+      REDIS_HOST: goopsy-redis
+      REDIS_PORT: 6379
+
+      MINIO_ENDPOINT: goopsy-minio
+      MINIO_PORT: 9000
+      MINIO_USE_SSL: false
+      MINIO_ACCESS_KEY: goopsyadmin
+      MINIO_SECRET_KEY: Goopsy@2026Storage
+
+    depends_on:
+      - postgres
+      - redis
+      - minio
+
+    networks:
+      - goopsy-network
+
+networks:
+  goopsy-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  redis_data:
+  minio_data:

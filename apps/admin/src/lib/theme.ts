@@ -1,0 +1,8 @@
+Background: "#F8F9FB"
+Cards: "#FFFFFF"
+Primary: "#FFD60A"
+Secondary: "#FFC300"
+Text: "#111827"
+Border: "#E5E7EB"
+Success: "#10B981"
+Danger: "#EF4444"
